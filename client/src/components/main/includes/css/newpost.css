@@ -1,0 +1,19 @@
+.addPost {
+    border: 1px solid #ccc;
+    padding: 1.3rem 2.3rem;
+    border-radius: 0.3rem;
+    box-shadow: 3px 3px 6px #ccc;
+    background: #fff;
+}
+
+.newPostImage {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    margin-right: .3rem;
+    transition: opacity 0.3s;
+}
+
+.newPostImage:hover {
+    opacity: 0.9;
+}

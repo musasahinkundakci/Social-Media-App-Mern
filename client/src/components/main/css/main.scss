@@ -1,0 +1,48 @@
+.main-left-container {
+  position: fixed;
+  top: 10rem;
+  height: 50%;
+  display: flex;
+  left: 0;
+  width: 28%;
+  margin-left: 2rem;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  transition: all 0.3s;
+}
+
+.hide {
+  opacity: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+
+  background-color: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(21, 20, 26, 63%);
+
+  border-radius: 10px;
+}
+
+.main-post-container {
+  display: flex;
+  width: 33%;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
