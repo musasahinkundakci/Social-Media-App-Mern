@@ -1,5 +1,5 @@
 <h1 align="center">
-🌐 MERN Stack
+🌐 MERN Social Media App
 </h1>
 <p align="center">
 MongoDB, Expressjs, React/Redux, Nodejs
@@ -23,7 +23,7 @@ MERN stack is the idea of using Javascript/Node for fullstack web development.
 
 ## clone or download
 ```terminal
-$ git clone https://github.com/amazingandyyy/mern.git
+$ https://github.com/musasahinkundakci/Social-Media-App-Mern
 $ npm i
 ```
 
@@ -59,18 +59,7 @@ $ npm run build // this will compile the react code using webpack and generate a
 $ npm run start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site
 ```
 
-## Server-side usage(PORT: 8000)
-
-### Prepare your secret
-
-run the script at the first level:
-
-(You need to add a JWT_SECRET in .env to connect to MongoDB)
-
-```terminal
-// in the root level
-$ echo "JWT_SECRET=YOUR_JWT_SECRET" >> ./server/src/.env
-```
+## Server-side usage(PORT: 5000)
 
 ### Start
 
@@ -94,49 +83,4 @@ $ pwd
 $ npm run deploy:heroku
 ```
 
-### After creating heroku
 
-remember to update the file of [client/webpack.prod.js](https://github.com/amazingandyyy/mern/blob/master/client/webpack.prod.js)
-```javascript
- 'API_URI': JSON.stringify('https://your-super-amazing-heroku-app.herokuapp.com')
-```
-
-# Dependencies(tech-stacks)
-Client-side | Server-side
---- | ---
-axios: ^0.15.3 | bcrypt-nodejs: ^0.0.3
-babel-preset-stage-1: ^6.1.18|body-parser: ^1.15.2
-lodash: ^3.10.1 | cors: ^2.8.1
-react: ^16.2.0 | dotenv: ^2.0.0
-react-dom: ^16.2.0 | express: ^4.14.0
-react-redux: ^4.0.0 | jwt-simple: ^0.5.1
-react-router-dom: ^4.2.2 | mongoose: ^4.7.4
-redux: ^3.7.2 | morgan: ^1.7.0
-redux-thunk: ^2.1.0 |
-
-# Screenshots of this project
-
-User visit public and Home page
-![User visit public and Home page](http://i.imgur.com/ORCGHHY.png)
-
-User can sign in or sign up
-![User can sign in or sign up](http://i.imgur.com/rrmbU5I.png)
-
-After signing in user can go to account route and make request to token-protected API endpoint
-![After signing in user can go to account route](http://i.imgur.com/FzLB51u.png)
-
-## Standard
-
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
-
-## BUGs or comments
-
-[Create new Issues](https://github.com/amazingandyyy/mern/issues) (preferred)
-
-Email Me: amazingandyyy@gmail.com (welcome, say hi)
-
-## Author
-[Amazingandyyy](https://amazingandyyy.com)
-
-### License
-[MIT](https://github.com/amazingandyyy/mern/blob/master/LICENSE)
