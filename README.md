@@ -6,7 +6,7 @@ MongoDB, Expressjs, React/Redux, Nodejs
 </p>
 
 <p align="center">
-   <a href="https://travis-ci.com/amazingandyyy/mern">
+   <a href="https://github.com/musasahinkundakci/Social-Media-App-Mern">
       <img src="https://travis-ci.com/amazingandyyy/mern.svg?branch=master" />
    </a>
    <a href="https://github.com/amazingandyyy/mern/blob/master/LICENSE">
